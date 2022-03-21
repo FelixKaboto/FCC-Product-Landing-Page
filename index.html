@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
     <link rel="stylesheet" href="styles.css">
     <title>FCC: Product Landing Page</title>
-    
 </head>
-<body>
-    <header id="header">
-        <nav id="nav-bar">
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
-            <ul>
-                <li class="nav-link">
-                    <button> Features </button>
-                </li>
-                
-                <li class="nav-link">
-                    <button> How It Works </button>
-                </li>
 
-                <li class="nav-link">
-                    <button> Pricing </button>
-                </li>
-            </ul>
-        </nav>
+<body>
+    <header id="header">        
+            <div class="logo">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" id="header-img">
+            </div>
+            <div class="nav-space"></div>
+            <nav id="nav-bar">
+                <a class="nav-link"> Features </a>  
+                <a class="nav-link"> How It Works </a>
+                <a class="nav-link"> Pricing </a>
+            </nav>            
     </header>
+
+    <div class="section-1">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+           <input type="email" id="email" placeholder="Enter your email address"/> 
+           <Input id="submit" type="submit" value="GET STARTED"/>
+        </form>
+    </div>
+
+
 </body>
 </html>
